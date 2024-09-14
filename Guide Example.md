@@ -47,8 +47,7 @@ To set up this script in your Roblox game or project, follow the steps below:
 The script can be used to create a wide variety of UI elements. Below is a basic example of how to create a window, add some UI elements, and set up callbacks.
 
 ```lua
-local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
-local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Iamkhnah/SynetProject/main/LinoriaLibrary.lua'))()
 local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/Iamkhnah/SynetProject/main/ThemeManager.lua'))()
 local SaveManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/Iamkhnah/SynetProject/main/SaveManager.lua'))()
 
