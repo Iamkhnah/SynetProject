@@ -49,7 +49,7 @@ The script can be used to create a wide variety of UI elements. Below is a basic
 ```lua
 local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
-local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
+local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/Iamkhnah/SynetProject/main/ThemeManager.lua'))()
 local SaveManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/Iamkhnah/SynetProject/main/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
