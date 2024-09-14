@@ -40,10 +40,6 @@ To set up this script in your Roblox game or project, follow the steps below:
 2. Make sure you have a script execution environment that supports `HttpGet` for loading remote libraries.
 3. Include the following code to load LinoriaLib from the provided repository URL.
 
-local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
-local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
-local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
-local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 ```
 
 ## Usage
@@ -51,6 +47,11 @@ local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 The script can be used to create a wide variety of UI elements. Below is a basic example of how to create a window, add some UI elements, and set up callbacks.
 
 ```lua
+local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
+local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
+local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
+local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
+
 local Window = Library:CreateWindow({
     Title = 'Example menu',
     Center = true,
