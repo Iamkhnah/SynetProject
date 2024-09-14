@@ -40,7 +40,6 @@ To set up this script in your Roblox game or project, follow the steps below:
 2. Make sure you have a script execution environment that supports `HttpGet` for loading remote libraries.
 3. Include the following code to load LinoriaLib from the provided repository URL.
 
-```lua
 local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
 local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
@@ -201,5 +200,5 @@ SaveManager:LoadAutoloadConfig()
 
 This project is open-source and free to use under the MIT License.
 ```
-
+HI <3
 ---
